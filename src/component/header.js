@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Header() {
+export default function Header(props) {
   const logout = () => {
     localStorage.setItem('isLoggedIn', false);
   };
@@ -12,6 +12,7 @@ export default function Header() {
             className="fa fa-bars tooltips"
             data-placement="right"
             data-original-title="Toggle Navigation"
+            onClick={() => props.updateSideBar()}
           ></div>
         </div>
         {/* <!--logo start--> */}

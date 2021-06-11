@@ -87,16 +87,14 @@ export default function User() {
   ];
   return (
     <div>
-      <section id="main-content">
-        <section className="wrapper site-min-height ">
-          <b className="page-title">Users</b>
-          <button type="button" class="btn btn-theme02 float-right add-button">
-            Add User &nbsp;
-            <i class="fa fa-building"></i>
-          </button>
+      <section className="wrapper site-min-height ">
+        <b className="page-title">Users</b>
+        <button type="button" class="btn btn-theme02 float-right add-button">
+          Add User &nbsp;
+          <i class="fa fa-building"></i>
+        </button>
 
-          <DataTable title="Users List" columns={columns} data={data} />
-        </section>
+        <DataTable title="Users List" columns={columns} data={data} />
       </section>
     </div>
   );

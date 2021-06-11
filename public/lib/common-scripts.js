@@ -67,7 +67,7 @@ var Script = (function () {
   // custom scrollbar
   $('#sidebar').niceScroll({
     styler: 'fb',
-    cursorcolor: '#C6B9FB',
+    cursorcolor: '#c6b9fb',
     cursorwidth: '3',
     cursorborderradius: '10px',
     background: '#404040',
@@ -75,7 +75,7 @@ var Script = (function () {
     cursorborder: '',
   });
 
-  //  $("html").niceScroll({styler:"fb",cursorcolor:"#C6B9FB", cursorwidth: '6', cursorborderradius: '10px', background: '#404040', spacebarenabled:false,  cursorborder: '', zindex: '1000'});
+  //  $("html").niceScroll({styler:"fb",cursorcolor:"#c6b9fb", cursorwidth: '6', cursorborderradius: '10px', background: '#404040', spacebarenabled:false,  cursorborder: '', zindex: '1000'});
 
   // widget tools
 

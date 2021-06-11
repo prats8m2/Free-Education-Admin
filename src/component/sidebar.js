@@ -1,10 +1,14 @@
 import React from 'react';
 
-export default function Sidebar() {
+export default function Sidebar(props) {
   return (
     <div>
       <aside>
-        <div id="sidebar" className="nav-collapse ">
+        <div
+          id="sidebar"
+          className="nav-collapse"
+          style={{ display: props.showSidebar ? 'block' : 'none' }}
+        >
           {/* <!-- sidebar menu start--> */}
           <ul className="sidebar-menu" id="nav-accordion">
             <p className="centered">

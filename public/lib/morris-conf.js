@@ -20,7 +20,7 @@ var Script = (function () {
       xkey: 'period',
       ykeys: ['licensed', 'sorned'],
       labels: ['Licensed', 'Off the road'],
-      lineColors: ['#C6B9FB', '#ed5565'],
+      lineColors: ['#c6b9fb', '#ed5565'],
     });
 
     Morris.Donut({
